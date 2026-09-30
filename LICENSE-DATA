@@ -1,0 +1,19 @@
+Data license
+
+The files in data/, outputs/, results/, figures/, assets/ and the caption files
+meme_templates/*.jsonl are licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0): https://creativecommons.org/licenses/by-nc/4.0/
+
+The conversations are derived from public Reddit content. This release does not
+include the comment texts: data/skeletons/ holds only the conversation
+structure (subreddits, post and comment ids, usernames and SHA-256 hashes of the
+texts). The model outputs in outputs/ are included as
+generated and may quote parts of the texts. The texts obtained with
+pipeline/rehydrate.py are not part of this release and are not covered by this
+license. Their use, and any use of the released files, must comply with
+Reddit's User Agreement and Data API Terms.
+
+The meme template images meme_templates/*.jpg were collected from ImgFlip
+(https://imgflip.com/memetemplates). They are third-party images and are not
+covered by this license or by the MIT License of the code.
