@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+
+# Secrets
+.env
+
+# Regenerated or not shipped
+data/raw/
+data/conversations/
+outputs/prompts/
+outputs/memes/
+outputs/memes_n[0-9]*/
+
+# Smoke-test outputs written with --sample_num N
+outputs/revisions/*_n[0-9]*.jsonl
+outputs/stances/*/*_n[0-9]*.csv
