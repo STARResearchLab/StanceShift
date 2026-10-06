@@ -1,0 +1,9 @@
+labels =
+
+{
+ 0: 'AI Model Evaluation',
+ 1: 'AI-Assisted Software Development Practices',
+ 2: 'AI Model Training Costs and Efficiency',
+ 3: 'AI Language Models and Consciousness Debate',
+ 4: 'Social Media Allegations and Accountability'
+}
